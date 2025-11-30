@@ -7,7 +7,6 @@ import SearchBar from "@/components/ui/SearchBar";
 import EmptyState from "@/components/ui/EmptyState";
 import Pagination from "@/components/ui/Pagination";
 import { Video, EducationLevel, educationLevels } from "@/types";
-import { VIDEO_CATEGORIES } from "@/lib/utils/constants";
 
 // بيانات تجريبية - يمكن استبدالها ببيانات من Firestore
 const mockVideos: Video[] = [

@@ -2,7 +2,7 @@
 
 import { Course } from "@/types";
 import { educationLevels } from "@/types";
-import { FiBook, FiBookOpen, FiGraduationCap } from "react-icons/fi";
+import { FiBook, FiBookOpen } from "react-icons/fi";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -30,7 +30,7 @@ export default function CourseCard({ course, index = 0 }: CourseCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-70 group-hover:opacity-85 transition-opacity duration-300" />
         <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-md text-white px-4 py-2 rounded-xl text-sm font-bold border border-white/20 shadow-lg flex items-center space-x-2 space-x-reverse">
-          <FiGraduationCap className="w-5 h-5" />
+          <FiBook className="w-5 h-5" />
           <span>كورس</span>
         </div>
       </div>

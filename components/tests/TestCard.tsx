@@ -3,7 +3,7 @@
 import { Test } from "@/types";
 import { educationLevels } from "@/types";
 import { motion } from "framer-motion";
-import { FiFileText, FiClock, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
+import { FiFileText, FiClock, FiCheckCircle } from "react-icons/fi";
 
 interface TestCardProps {
   test: Test;
